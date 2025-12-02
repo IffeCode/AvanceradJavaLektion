@@ -58,6 +58,23 @@ public class Main {
         int stringInteger = Integer.parseInt(string3);
         System.out.println(string1 + " " + string2 + " " + " " + stringInteger);
 
+        //skapa if-sats:
+
+        if (myVar1>myVar2) {
+            System.out.println("Heja Java!");
+        }
+
+        if (y > 0.0) {
+            System.out.println("Konstigt!");
+
+        }
+        else  {
+            System.out.println("Vilken tur!");
+        }
+        if (z == 0.9999999999999999){
+            System.out.println("Vad nu då?");
+        }
+
 
 
 
