@@ -1,5 +1,7 @@
 package org.example;
 
+
+
 public class uppgift2 {
     //Skriv rätt datatyp:
 
