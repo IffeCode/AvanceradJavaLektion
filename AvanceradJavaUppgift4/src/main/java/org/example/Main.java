@@ -11,9 +11,7 @@ public class Main {
 
    persons.stream()
            .filter( p -> p.length() > 4)
-                   .toList();
-
-        System.out.println(persons);
+           .forEach(System.out::println);
 
 
 
