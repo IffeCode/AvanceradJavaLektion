@@ -30,7 +30,15 @@ public class Main {
 
 
         List<String> word = List.of("BOM!", "Blind", "Snake", "BOM!", "Beer", "Blind");
-        HashMap<String, Integer> wordMap = new HashMap<>(word.hashCode());
+        //Order : Antal förekomster
+        HashMap<String, Integer> wordMap = new HashMap<>();
+        for (String w : word) {
+            Integer count = wordMap.getOrDefault(word, 0);
+            count++;
+            wordMap.put(w, count);
+        }
+        System.out.println(wordMap);
+
 
 
 
