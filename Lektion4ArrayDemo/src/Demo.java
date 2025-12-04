@@ -10,6 +10,7 @@ public class Demo {
                 2. Linkedlist
                 3. HashSet
                 4. HashMap
+                5. Iterator
                 Välj demo: """);
         Scanner sc = new Scanner(System.in);
         int choice = 0;
@@ -32,6 +33,9 @@ public class Demo {
                 break;
             case 4:
                 HashMapDemo.Demo();
+                break;
+            case 5:
+                IteratorDemo.Demo();
                 break;
             default:
                 System.out.println("Ogiltigt val!");
