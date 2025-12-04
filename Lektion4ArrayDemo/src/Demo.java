@@ -11,6 +11,7 @@ public class Demo {
                 3. HashSet
                 4. HashMap
                 5. Iterator
+                6. Lambda
                 Välj demo: """);
         Scanner sc = new Scanner(System.in);
         int choice = 0;
@@ -36,6 +37,9 @@ public class Demo {
                 break;
             case 5:
                 IteratorDemo.Demo();
+                break;
+            case 6:
+                LambdaDemo.Demo();
                 break;
             default:
                 System.out.println("Ogiltigt val!");
