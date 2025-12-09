@@ -6,7 +6,7 @@ public class Demo {
 
         System.out.println("""
                 1. Insertion Sort
-                2.
+                2. Merge Sort
                 Välj demo: """);
         Scanner sc = new Scanner(System.in);
         int i = 0;
@@ -20,6 +20,9 @@ public class Demo {
         switch (i) {
             case 1:
                 InsertionSortDemo.Demo();
+                break;
+            case 2:
+                MergeSortDemo.Demo();
                 break;
             default:
                 System.out.println("Ogiltigt val!");
