@@ -7,6 +7,7 @@ public class Demo {
         System.out.println("""
                 1. Insertion Sort
                 2. Merge Sort
+                3. Binary Search
                 Välj demo: """);
         Scanner sc = new Scanner(System.in);
         int i = 0;
@@ -24,6 +25,8 @@ public class Demo {
             case 2:
                 MergeSortDemo.Demo();
                 break;
+            case 3:
+                BinarySearchDemo.Demo();
             default:
                 System.out.println("Ogiltigt val!");
         }
